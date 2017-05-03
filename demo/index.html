@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="demoApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../dist/gantt.css"/>
+</head>
+<body ng-controller="demoCtrl">
+    <gantt></gantt>
+</body>
+</html>
+<script src="../bower_components/angular/angular.js"></script>
+<script src="../bower_components/lodash/lodash.js"></script>
+<script src="../bower_components/moment/moment.js"></script>
+<script src="../dist/gantt.js"></script>
+
+<script>
+    angular.module("demoApp",['gantt']).
+    controller('demoCtrl',['$scope',function($scope){
+
+    }]);
+</script>

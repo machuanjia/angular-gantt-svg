@@ -1,0 +1,14 @@
+{
+  "name": "timma-flex",
+  "homepage": "https://github.com/machuanjia/timma-flex",
+  "version": "1.0.0",
+  "_release": "1.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.0",
+    "commit": "bf7f839804eaaa4dff124f040591478f36cd8245"
+  },
+  "_source": "https://github.com/machuanjia/timma-flex.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/machuanjia/timma-flex.git"
+}

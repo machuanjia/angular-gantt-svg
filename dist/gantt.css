@@ -1,0 +1,220 @@
+.flex-row,
+.flex_row {
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+}
+.flex-row-reverse,
+.flex_row_reverse {
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+.flex-col,
+.flex_col {
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+}
+.flex-col-reverse,
+.flex_col_reverse {
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  -webkit-flex-direction: column-reverse;
+  vertical-align: top;
+}
+.flex-inline,
+.flex_inline {
+  display: inline-flex;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+}
+.flex-se0,
+.flex_se0 {
+  -ms-flex: 0;
+  flex: 0;
+  -webkit-flex: 0;
+}
+.flex-se1,
+.flex_se1 {
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1;
+}
+.flex-se2,
+.flex_se2 {
+  -ms-flex: 2;
+  flex: 2;
+  -webkit-flex: 2;
+}
+.flex-se3,
+.flex_se3 {
+  -ms-flex: 3;
+  flex: 3;
+  -webkit-flex: 3;
+}
+.flex-se4,
+.flex_se4 {
+  -ms-flex: 4;
+  flex: 4;
+  -webkit-flex: 4;
+}
+.flex-se5,
+.flex_se5 {
+  -ms-flex: 5;
+  flex: 5;
+  -webkit-flex: 5;
+}
+.flex-bw-100,
+.flex_bw_100 {
+  -ms-flex-preferred-size: 100px;
+  flex-basis: 100px;
+}
+.flex-fix-w {
+  width: 0;
+}
+.flex_row .flex-se1,
+.flex_row .flex-se2,
+.flex_row .flex-se3,
+.flex_row .flex-se4,
+.flex_row .flex-se5 {
+  width: 0;
+}
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.flex-row-between {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.flex-col-end {
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+.flex-grow-0 {
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+.flex-grow-1 {
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+.gantt-wrap {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  border: 1px #d2d2d2 solid;
+  height: 500px;
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+}
+.gantt-wrap .gantt-header {
+  background: #fafafa;
+  height: 60px;
+  width: 100%;
+  overflow: auto;
+}
+.gantt-wrap .gantt-header .gantt-header-table {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 14px;
+  border-collapse: collapse;
+  border-bottom: 1px #d2d2d2 solid;
+}
+.gantt-wrap .gantt-header .gantt-header-table tr:first-child {
+  border-bottom: 1px #d2d2d2 solid;
+}
+.gantt-wrap .gantt-header .gantt-header-table td {
+  border-left: 1px #d2d2d2 solid;
+  color: #333;
+}
+.gantt-wrap .gantt-header .gantt-header-table td:first-child {
+  border-left: none;
+}
+.gantt-wrap .gantt-row {
+  cursor: pointer;
+  fill: #fff;
+}
+.gantt-wrap .gantt-row:hover {
+  fill: #aef5ff;
+}
+.gantt-wrap .row-line {
+  stroke: #d2d2d2;
+}
+.gantt-wrap .gantt-list {
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+}
+.gantt-wrap .gantt-list .gantt-list-svg-wrap {
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1;
+  overflow: hidden;
+}
+.gantt-wrap .gantt-list .gantt-list-svg-wrap .gantt-list-svg {
+  padding: 0;
+  margin: 0;
+}
+.gantt-wrap .gantt-list .gantt-list-svg-wrap .gantt-list-svg .rol-text {
+  font-size: 12px;
+  fill: #d4d4d4;
+}
+.gantt-wrap .gantt-list .gantt-list-svg-wrap .gantt-list-svg .rol-text.rol-strong {
+  font-size: 14px;
+  fill: #333;
+}
+.gantt-wrap .gantt-split {
+  width: 1px;
+  background: #d2d2d2;
+  cursor: ew-resize;
+}
+.gantt-wrap .gantt-split:hover {
+  width: 5px;
+  background: #aef5ff;
+}
+.gantt-wrap .gantt-map {
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1;
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  overflow: hidden;
+}
+.gantt-wrap .gantt-map .gantt-map-svg-wrap {
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1;
+  overflow: auto;
+}
+.gantt-wrap .gantt-map .gantt-map-svg-wrap .gantt-map-svg {
+  padding: 0;
+  margin: 0;
+  min-width: 100%;
+}

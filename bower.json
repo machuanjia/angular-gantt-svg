@@ -1,0 +1,23 @@
+{
+  "name": "angular-gantt-svg",
+  "homepage": "https://github.com/machuanjia/angular-gantt-svg",
+  "authors": [
+    "machuanjia <machuanjia@worktile.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "angular": "^1.6.4",
+    "moment": "^2.18.1",
+    "timma-flex":"https://github.com/machuanjia/timma-flex.git"
+  }
+}
