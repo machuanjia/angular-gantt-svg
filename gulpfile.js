@@ -108,4 +108,4 @@ gulp.task('watch', function () {
 // The default task (called when you run `gulp` from cli)
 gulp.task('default', ['watch', 'scripts:dev', 'templates:dev', 'lessc:dev']);
 
-gulp.task('default', ['clean','watch', 'scripts:dist','scripts:dist_all_min', 'lessc:dist','lessc:dist_all_min','templates:dist']);
+gulp.task('build', ['clean','watch', 'scripts:dist','scripts:dist_all_min', 'lessc:dist','lessc:dist_all_min','templates:dist']);

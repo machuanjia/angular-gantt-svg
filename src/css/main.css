@@ -113,7 +113,7 @@
   background: #fafafa;
   height: 60px;
   width: 100%;
-  overflow: auto;
+  overflow: hidden;
 }
 .gantt-wrap .gantt-header .gantt-header-table {
   width: 100%;
@@ -137,7 +137,8 @@
   cursor: pointer;
   fill: #fff;
 }
-.gantt-wrap .gantt-row:hover {
+.gantt-wrap .gantt-row:hover,
+.gantt-wrap .gantt-row.active {
   fill: #aef5ff;
 }
 .gantt-wrap .row-line {
@@ -195,4 +196,8 @@
   padding: 0;
   margin: 0;
   min-width: 100%;
+}
+.gantt-wrap .gantt-map .gantt-map-svg-wrap .gantt-map-svg .gantt-line {
+  fill: #69d0d1;
+  opacity: .6;
 }
