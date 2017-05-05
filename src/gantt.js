@@ -226,7 +226,7 @@
                     function init() {
                         vm.list.rowList = [];
 
-                        for (var o = 0; o < 1000; o++){
+                        for (var o = 0; o < 200; o++){
                             vm.list.rowList.push({
                                 id:o,
                                 name: '任务' + o,
@@ -236,7 +236,6 @@
                             });
                         }
 
-                        vm.list.rowList
 
                         initMap();
                         initList();
